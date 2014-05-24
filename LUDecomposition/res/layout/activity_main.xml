@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/system_message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/connect_message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/worker_message"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="25sp" />
+    
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="fill_parent"
+        android:layout_height="75sp"
+        android:onClick="connect"
+        android:text="@string/button_connect" />
+    
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="fill_parent"
+        android:layout_height="75sp"
+        android:onClick="disconnect"
+        android:visibility="gone"
+        android:text="@string/button_disconnect" />
+
+</LinearLayout>
